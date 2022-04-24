@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+   
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    /* font-family: 'Lato', sans-serif; */
+   
+    /* font-family: 'Arvo', serif; */
+     font-family: 'Poppins', sans-serif;
+
+}
+h2,h3,h4,h5,a{
+     font-family: 'Open Sans', sans-serif;
+}
+/* header section design start */
+.header-section{
+    background-image: url(../images/header-bg.png);
+    height: 800px; 
+    background-size:cover;
+    margin-bottom: 50px;   
+}
+.half-width{
+    float: left;
+    width: 35%;
+    padding: 2%;
+}
+.header-left{
+    margin-left: 15%;
+    margin-top: 14%;
+}
+.header-right{
+    margin-left: -5%;
+    margin-top: 6%;  
+}
+ img{
+    width: 100%;
+   
+}
+.h1-style{
+    font-size: 3.5rem;
+    color:#ef476f;
+    font-weight: 900px;
+    margin-top: -12px;
+}
+p{
+    color: dimgray;
+}
+
+.button{
+    color: white;
+    background: linear-gradient(90deg,#e74998,#ef476f);
+    padding: 15px 35px;
+    text-decoration: none;
+    
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+/* header section design ends */
+
+/* biography section design start */
+.biography-section{
+    background-image: url(../images/biography-bg.png);
+    height: 850px;
+    background-position: left;
+    padding-bottom:25px ;
+       
+}
+.bio-left{
+    margin-top: 6%;
+    margin-left: 10%; 
+}
+.bio-right{
+    margin-left: 5%;
+    margin-top: 13%;
+}
+/* biography section design ends */
+
+/* Latest-work section design start here */
+.Latest-work{
+    background-image: url(../images/latest-work-bg.png);
+    height: 600px;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.Latest-work-heading{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 2.5rem;
+}
+.Latest-work-img{
+    text-align: center;
+   
+}
+.img-all{
+    height: 25%;
+    width: 25%;
+}
+/* Latest-work section design ends here */
+
+/* Footer section design start here */
+.foter-main{
+    background-image: url(../images/footer-bg.png);
+    background-size: cover;
+   
+    background-position: center;
+    text-align: center;
+   
+}
+.foter-text{
+    margin-top: 100px;  
+}
+.foter-h1{
+    font-size: 2.5rem;
+}
+.two-tag{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    line-height: .5rem;
+}
+.two-tag h5{
+    color: dimgray;
+}
+.foter-text-p{
+    color:black;
+}
+.foter-box{
+    background: linear-gradient(90deg,#e74998,#ef476f);
+    /* background-color:#ef476f; */
+    height: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    color:white;
+    line-height: 1rem;
+    width: 50%;
+    margin-left: 28%;
+    margin-top: 5%;
+    margin-bottom: 12%;
+    position: relative;
+      
+}
+.foter-box-text{
+    position: absolute;
+    top: 50px;
+    left: 180px;
+    
+    
+    
+}
+.foter-p{
+    
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+@media(max-width:760px){
+    .foter-box-text h2{
+        font-size: 14px;
+    }
+    .foter-box-text h4{
+        font-size: 12px;
+    }
+}
